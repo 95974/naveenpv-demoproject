@@ -1,0 +1,66 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main-container{
+    display: flex;
+}
+.sub-main-container{
+    display: flex;
+}
+.para{
+    flex: 1;
+}
+
+.para1{
+    background-color: aqua;
+}
+
+.para2{
+    background-color: red;
+}
+.para3{
+    background-color: tomato;
+}
+.para4{
+    background-color: rosybrown;
+}
+.para5{
+    background-color: gold;
+}
+.para6{
+    background-color: green;
+}
+
+
+@media only screen and (max-width : 1200px) {
+  .main-container{
+    display: block;
+  }
+
+    .para5{
+    background-color: rebeccapurple;
+  }
+    
+}
+
+@media only screen and (max-width : 768px) {
+  .sub-main-container{
+    display: block;
+  }  
+  .para5{
+    background-color: white;
+  }
+}
+
+.menu-bar{
+  border:  1px solid gray;
+  background-color: gray;
+  padding: 2px 4px;
+  border-radius: 2px;
+}
+
+
+.input-form{
+  width: 450px !important;
+}
